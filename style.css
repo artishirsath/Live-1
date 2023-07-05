@@ -2,11 +2,13 @@ body{
 background-image: url(./sky.png);
 background-size: cover;
 
+
 }
 .nav{
     background-color: rgb(234, 234, 96);
     margin-top: -2%;
-    margin-left: -2%;
+    margin-left: -1%;
+    padding-right: 5px;
 
 }
 .block{
@@ -88,7 +90,7 @@ background-size: cover;
     }
     
 }
-@media only screen and(min-width:220px) and(max-width:600px)
+@media screen and (min-width : 220px) and (max-width : 600px)
 {
    .container{
     width: 320px;
@@ -96,21 +98,12 @@ background-size: cover;
    body{
     background-size: cover;
    }
-   .box{
-    position: relative;
+   .nav{
+    height: 70px;
    }
-   .box4{
-    top: 20px;
-   }
-   .box5{
-    top: 10px;
-   }
-   .top6{
-    top: 30px;
-   }
-   .logo{
-    height: 30px;
-    width: 50px;
+   .logo img{
+    width: 150px;
+    
    }
 }
 
