@@ -7,7 +7,6 @@ background-size: cover;
     background-color: rgb(234, 234, 96);
     margin-top: -2%;
     margin-left: -2%;
-    width: 100em;
 
 }
 .block{
@@ -89,7 +88,7 @@ background-size: cover;
     }
     
 }
-@media only screen and(min-width:340px) and(max-width:600px)
+@media only screen and(min-width:220px) and(max-width:600px)
 {
    .container{
     width: 320px;
@@ -110,8 +109,8 @@ background-size: cover;
     top: 30px;
    }
    .logo{
-    height: 100px;
-    width: 200px;
+    height: 30px;
+    width: 50px;
    }
 }
 
